@@ -25,7 +25,7 @@ SECRET_KEY = '%a(ecja)#8@uyqddfwavb-4+i!-dz*x%!qt^s9&u_^=f$jjd1!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rasuli.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['rasuli.com', 'localhost', '127.0.0.1', '3eec2cde.ngrok.io']
 
 
 # Application definition

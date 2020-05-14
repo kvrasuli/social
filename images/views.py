@@ -10,7 +10,7 @@ def image_create(request):
         form = ImageCreateForm(data=request.POST)
         if form.is_valid():
             # данные формы валидны
-            cd = form.cleaned_data
+            # cd = form.cleaned_data
             new_item = form.save(commit=False)
             # добавляем пользователя к созданному объекту
             new_item.user = request.user
